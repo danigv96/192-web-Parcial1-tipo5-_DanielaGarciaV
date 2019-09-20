@@ -12,5 +12,5 @@ function changeRotate(){
     img.style.transform= "rotate("+rotate.value+"deg)";
 }
 
-change.addEventListener('change', changeImage);
-rotate.addEventListener('change',changeRotate);
+change.addEventListener('input', changeImage);
+rotate.addEventListener('mousemove',changeRotate);
